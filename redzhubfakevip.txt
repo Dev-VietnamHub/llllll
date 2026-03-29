@@ -10251,12 +10251,10 @@ task.spawn(function()
     end
 end)
 v496:AddToggle({
-    Name = "M1 FRUIT",
-    Description = "",
-    Default = true,
-    Callback = function(v1165)
-        _G.BringMonster = v1165
-        StopTween(_G.BringMonster)
+     Name = "M1 FRUIT",
+     Description = "",
+     Default = true,
+     Callback = function
     end
 })
 spawn(function()
